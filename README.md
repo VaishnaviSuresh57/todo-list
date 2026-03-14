@@ -28,13 +28,14 @@ https://todo-list-lake-alpha.vercel.app
 ---
 
 ## 📂 Project Structure
-project-folder
-todo-list
+
+```
+todo-list/
 │
 ├── index.html
 ├── Screenshot.png
 └── README.md
----
+```
 
 ## ▶ How to Run the Project
 
