@@ -1,0 +1,106 @@
+
+<center>
+<h1>STUDENT FORM</h1>
+
+<form>
+    <table border="1" id="one">
+        <tr><td>Name</td>
+            <td><input type="text" id="Name">
+            </td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td><input type="number" id="Age"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" id="Male" value="Male" name="gender">Male<input type="radio" id="Female" value="Female" name="gender">Female</td>
+        </tr>
+        <tr>
+            <td >Course</td>
+            <td>
+                <select id="Course">
+                    <option >python</option>
+                    <option>java</option>
+                    <option>c</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>E-mail</td>
+            <td><input type="email" id="Email"></td>
+        </tr>
+
+        
+    </table>  
+    <table border="1">
+        <tr>
+            <td>
+            <button id="button" onclick="save(event)">Save</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<table id="two" border="1">
+    <tr id="row">
+        <td>NAME</td>
+        <td>AGE</td>
+        <td>COURSE</td>
+        <td>GENDER</td>
+        <td>EMAIL</td>
+        <td>ACTION</td>
+    </tr>
+    
+
+
+</table>
+
+</center>
+
+<script>
+    var table2=document.getElementById("two")
+
+    function save(event){
+        event.preventDefault();
+
+        var row=document.createElement("tr")
+        var name=document.createElement("td")
+        var age=document.createElement("td")
+        var course=document.createElement("td")
+        
+        var gender=document.createElement("td")
+        var email=document.createElement("td")
+        var action=document.createElement("td")
+        name.innerHTML=Name.value
+        age.innerHTML=Age.value
+        course.innerHTML=Course.value
+        var genderValue = document.querySelector('input[name="gender"]:checked')?.value || "";
+        gender.innerHTML = genderValue;
+        email.innerHTML=Email.value
+
+        action.innerHTML="<button id='button2'onclick='update(this)'>delete</button>" 
+                        row.appendChild(name)
+                        row.appendChild(age)
+                        row.appendChild(course)
+                        row.appendChild(gender)
+                        row.appendChild(email)
+                        row.appendChild(action)
+                        table2.append(row)
+        
+
+    }
+
+function update(btn){
+             btn.parentElement.parentElement.remove();
+        }
+</script>
+
+<style>
+    #button{
+        background-color: aquamarine;
+        width: 221px;
+    }
+    #button2{
+        background-color: red;
+    }
+</style>
