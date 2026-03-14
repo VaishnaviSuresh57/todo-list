@@ -29,11 +29,10 @@ https://todo-list-lake-alpha.vercel.app
 
 ## 📂 Project Structure
 project-folder
+todo-list
 │
 ├── index.html
-├── style.css
-├── script.js
-├── screenshot.png
+├── Screenshot.png
 └── README.md
 ---
 
@@ -46,7 +45,7 @@ project-folder
 
 ---
 ## 📷 Screenshot
-![Project Screenshot](screenshot.png)
+![Project Screenshot](Screenshot.png)
 ---
 
 ## 👩‍💻 Author
