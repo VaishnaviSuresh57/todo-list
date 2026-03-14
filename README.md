@@ -39,7 +39,7 @@ todo-list/
 
 ## ▶ How to Run the Project
 
-1. Download or clone the repository
+1. Download or clone the repository https://github.com/VaishnaviSuresh57/todo-list.git
 2. Open the folder
 3. Double click **index.html**
 4. The project will run in your browser
