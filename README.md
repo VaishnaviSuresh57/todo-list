@@ -1,16 +1,57 @@
-# Student Registration Form
+# 🎓 Student Registration Form
 
-A simple web application built using HTML, CSS, and JavaScript.
+A simple web application built using **HTML, CSS, and JavaScript** that allows users to register student details and display them in a table dynamically.
 
-This project allows users to enter student details such as Name, Age, Gender, Course, and Email through a form. The entered data is dynamically displayed in a table using JavaScript DOM manipulation.
+---
 
-## Features
+## 🌐 Live Demo
+https://todo-list-lake-alpha.vercel.app
+
+---
+
+## 📌 Features
+
 - Add student details
-- Display data in table
-- Delete records
-- Simple UI
+- Display student data in a table
+- Delete student records
+- Dynamic DOM manipulation
+- Simple and clean user interface
 
-## Technologies Used
+---
+
+## 🛠 Technologies Used
+
 - HTML
 - CSS
 - JavaScript
+
+---
+
+## 📂 Project Structure
+project-folder
+│
+├── index.html
+├── style.css
+├── script.js
+├── screenshot.png
+└── README.md
+---
+
+## ▶ How to Run the Project
+
+1. Download or clone the repository
+2. Open the folder
+3. Double click **index.html**
+4. The project will run in your browser
+
+---
+## 📷 Screenshot
+![Project Screenshot](screenshot.png)
+---
+
+## 👩‍💻 Author
+
+Vaishnavi S  
+Computer Science Engineering Student
+
+---
